@@ -13,3 +13,19 @@ class program
         Database.printAllData();
     }
 }
+
+
+namespace Modul5_10302240081
+{
+    internal class program
+    {
+        static void Main(string[] args)
+        {
+            PemrosesData nilai = new PemrosesData();
+            float terbesar = nilai.DapatkanNilaiTerbesar(10, 30, 22);
+            Console.WriteLine("nilai terbesar: " + terbesar);
+        }
+    }
+    
+}
+
